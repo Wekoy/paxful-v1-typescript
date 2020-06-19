@@ -1,0 +1,96 @@
+.trades-card{
+  position: relative;
+  padding: 25px 25px 25px 50px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e2e2e2;
+  transition: .2s;
+  background-color: #fff;
+}
+
+.trades-card:before{
+  content: '';
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background-color: #9a9a9a;
+  border-radius: 50%;
+  left: 30px;
+  top: 30px;
+  border: 2px solid #aaa;
+  background-color: transparent;
+}
+
+.trades-card:hover{
+  cursor: pointer;
+  background-color: #f6f7fb;
+}
+
+.trades-card.active{
+  background-color: #f6f7fb;
+  border-bottom: 1px solid #dcdcdc;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* .trades-card.active:before{
+  left: 40px;
+} */
+
+.trades-card.active .trades-card__how-buy{
+  color: #5e7392;
+}
+.trades-card.active .trades-card__pay-method{
+  font-weight: 400;
+}
+
+.trades-card.new-message:before{
+  background-color: #57d4c8;
+  border: none;
+  width: 9px;
+  height: 9px;
+}
+
+.trades-card__how-buy{
+  margin-bottom: 10px;
+  color: #acacac;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.trades-card__how-buy span{
+  font-weight: 700;
+}
+
+.trades-card__pay-method{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #292929;
+}
+
+.trades-card__purchase-rate{
+  font-size: 14px;
+  color: #989898;
+}
+
+.trades-card__owner{
+  text-align: center;
+  width: 70px;
+}
+
+.trade-status{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  color: #a6a6a6;
+}
+
+.trade-status.paid{
+  color: #53d48c;
+  font-size: 14px;
+}

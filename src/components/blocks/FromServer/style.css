@@ -1,0 +1,31 @@
+.error{
+  color: #c2485d;
+}
+
+.disclaimer{
+  margin-bottom: 20px;
+  font-size: 12px;
+  line-height: 16px;
+}
+.server-info-row{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.server-info-loader{
+  color: #a6a6a6;
+  height: 232px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.server-info-loader img{
+  max-width: 100px;
+  max-height: 100px;
+  opacity: .5;
+  display: block;
+  margin: 0 auto 20px;
+}

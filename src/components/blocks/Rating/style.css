@@ -1,0 +1,17 @@
+.rating {
+  font-weight: 300;
+  color: #898989;
+  font-size: 20px;
+}
+
+.rating span{
+  font-weight: 600;
+}
+
+.rating .positive{
+  color: #53d48c;
+}
+
+.rating .negative{
+  color: #c2485d;
+}

@@ -1,0 +1,48 @@
+.trades-dialogs__header{
+  text-align: center;
+  border-bottom: 2px solid #e8e8e8;
+  padding: 25px 0;
+  position: sticky;
+  top: 0;
+  background: #f6f7fb;
+  z-index: 2;
+}
+
+.trades-dialogs__header-title{
+  font-size: 24px;
+  font-weight: 600;
+  color: #5e7392;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.trades-dialogs__header-info{
+  display: flex;
+  justify-content: center;
+}
+
+.trades-dialogs__header-name{
+  margin-right: 10px;
+  color: #8b8b8b;
+  font-size: 18px;
+}
+
+.trash-dialog{
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #b4bec8;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .2s;
+}
+
+.trash-dialog:hover{
+  background-color: #c2485d;
+}

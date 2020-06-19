@@ -1,0 +1,22 @@
+.btn{
+  margin-bottom: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.btn.medium{
+  padding: 12px 35px;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+}
+
+.grin-btn{
+  background-color: #52d48c;
+  color: #fff;
+  border: 2px solid #5abd87;
+}
+
+.grin-btn:hover{
+  background-color: #5abd87;
+}

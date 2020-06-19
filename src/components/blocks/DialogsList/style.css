@@ -1,0 +1,12 @@
+.simplebar-scrollbar:before{
+  background-color: #52d48c;
+  opacity: 1!important;
+}
+
+.simplebar-hover:before{
+  background-color: #5abd87;
+}
+
+.simplebar-placeholder{
+  width: 100%!important;
+}

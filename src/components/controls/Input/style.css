@@ -1,0 +1,28 @@
+.simple-input{
+  width: 100%;
+  border: 2px solid #ecedef;
+  padding: 20px 110px 20px 50px;
+  font-size: 16px;
+  transition: .2s;
+  position: relative;
+}
+
+.simple-input.error{
+  border-color: #c2485d;
+}
+
+.error-text{
+  position: absolute;
+  color: #c2485d;
+  font-size: 12px;
+  right: 0;
+  top: -32px;
+  background: #fff;
+  border: 2px solid #c2485d;
+  padding: 5px 10px;
+}
+
+
+.Toastify__toast--error{
+  background-color: #c2485d!important;
+}

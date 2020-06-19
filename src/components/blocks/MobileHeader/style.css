@@ -1,0 +1,10 @@
+.mobile-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+  background: #30364e;
+}
+
+.MuiSvgIcon-root{
+  color: #fff;
+}

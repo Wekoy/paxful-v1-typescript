@@ -1,0 +1,89 @@
+html {
+	height: 100%;
+}
+
+body{
+	z-index: 0;
+	font-style: normal;
+	color: #292929;
+	line-height: 20px;
+	height: 100%;
+}
+
+
+*,
+*:before,
+*:after{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: none!important;
+	margin: 0;
+	padding: 0;
+}
+
+
+a,
+a:hover,
+a:focus,
+a:active,
+button,
+button:hover,
+button:focus,
+button:active {
+	text-decoration: none;
+	-webkit-transition: .2s;
+	transition: .2s;
+}
+
+a,
+a:hover,
+a:active,
+a:focus,
+button,
+input,
+button:hover,
+button:active,
+button:focus,
+input:focus,
+input:active,
+textarea,
+textarea:focus,
+textarea:active {
+	text-decoration: none;
+	outline: none;
+}
+
+textarea {
+	resize: none;
+}
+
+input, textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
+ul li{
+	text-decoration: none;
+	list-style: none;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #9f9f9f;
+	font-size: 16px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+	color: #9f9f9f;
+	font-size: 16px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+	color: #9f9f9f;
+	font-size: 16px;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color: #9f9f9f;
+	font-size: 16px;
+}
+
+.main-content{
+	height: 100vh;
+}

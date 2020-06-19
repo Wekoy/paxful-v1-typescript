@@ -1,0 +1,60 @@
+.trades-dialogs-wrap{
+  display: flex;
+  background-color: #f6f7fb;
+  height: 100%;
+}
+
+@media (max-width: 1280px){
+  .trades-dialogs-wrap{
+    height: calc(100% - 48px);
+  }
+}
+
+
+.trade-message-box__info{
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.trades-dialogs__items,
+.trades-dialogs__details{
+  background-color: #fff;
+  box-shadow: 1px 0px 20px 1px #e8e8e8;
+  max-width: 400px; 
+}
+
+.trades-dialogs__massage-wrap{
+  padding: 0 35px 0;
+  width: 100%;
+}
+
+@media (max-width: 576px){
+  .trades-dialogs__massage-wrap{
+    padding: 0 10px 0;
+  }
+}
+
+.trades-dialogs__items{
+  width: 35%;
+}
+
+.trades-dialogs__details{
+  padding: 25px;
+  width: 50%;
+}
+
+.trades-dialogs__details.mobile{
+  width: 100%;
+  box-shadow: none;
+}
+
+
+.trades-dialogs-cork{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #52d48c;
+}
